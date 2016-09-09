@@ -1,6 +1,5 @@
 package org.lp20.aikuma;
 
-
 import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -74,17 +73,17 @@ public class ModeSelection extends Activity implements OnClickListener{
 //	    getActionBar().hide();
 	    
 		Aikuma.loadLanguages();
-		
-		Button btn_rec = (Button) findViewById(R.id.button_mode_record);
+
+		/*Button btn_rec = (Button) findViewById(R.id.button_mode_record);
 		btn_rec.setOnClickListener(this);
 		Button btn_respk = (Button) findViewById(R.id.button_mode_respeak);
 		btn_respk.setOnClickListener(this);
 		Button btn_trad = (Button) findViewById(R.id.mainTradBtn);
-		btn_trad.setOnClickListener(this);
+		btn_trad.setOnClickListener(this);*/
 		Button btn_elicit = (Button) findViewById(R.id.mainElicitBtn);
 		btn_elicit.setOnClickListener(this);
-		Button btn_check = (Button) findViewById(R.id.mainCheckBtn);
-		btn_check.setOnClickListener(this);
+		/*Button btn_check = (Button) findViewById(R.id.mainCheckBtn);
+		btn_check.setOnClickListener(this);*/
 //		Button btn_old_aikuma = (Button) findViewById(R.id.button_mode_slct_old_aikuma);
 //		btn_old_aikuma.setOnClickListener(this);
 		

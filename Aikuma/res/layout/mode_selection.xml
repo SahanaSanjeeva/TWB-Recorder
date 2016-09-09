@@ -27,13 +27,13 @@
 			       android:background="@android:color/darker_gray"
 			       android:layout_marginBottom="30dp"/>  
 		
-			    <TextView
+			   <!-- <TextView
 			        android:id="@+id/maintextView2"
 			        style="@style/SecondTitle"
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
 			        android:layout_marginBottom="25dp"
-			        android:text="@string/selectaMode" />
+			        android:text="@string/selectaMode" />-->
 		       
 		    <!-- New Aikuma Buttons -->
 		   <TableLayout
@@ -43,30 +43,30 @@
 		        android:layout_marginRight="30dp" >
 		        
 			        <!-- Recording Button -->
-			    	<Button
+			    	<!--<Button
 				        android:id="@+id/button_mode_record"
 				        style="@style/TextButton"
 				        android:layout_width="wrap_content"
 				        android:layout_height="wrap_content"
 				        android:drawableTop="@drawable/ic_mic_black_24dp"
-				        android:text="@string/record" />
+				        android:text="@string/record" />-->
 				    <!-- Respeaking Button -->
-				    <Button
+				  <!--  <Button
 				        android:id="@+id/button_mode_respeak"
 				        style="@style/TextButton"
 				        android:layout_width="wrap_content"
 				        android:layout_height="wrap_content"
 				        android:drawableTop="@drawable/ic_hearing_black_24dp"
-				        android:text="@string/respeak" />
+				        android:text="@string/respeak" />-->
 				    <!-- Translate Button -->
-				    <Button
+				   <!-- <Button
 				        android:id="@+id/mainTradBtn"
 				        style="@style/TextButton"
 				        android:layout_width="wrap_content"
 				        android:layout_height="wrap_content"
 				        android:layout_weight="1.09"
 				        android:drawableTop="@drawable/ic_public_black_24dp"
-				        android:text="@string/tradBtn" />
+				        android:text="@string/tradBtn" />-->
 				    <!-- Elicitation Button -->
 				    <Button
 				        android:id="@+id/mainElicitBtn"
@@ -76,13 +76,13 @@
 				        android:drawableTop="@drawable/ic_collections_black_24dp"
 				        android:text="@string/elicitBtn" />
 				    <!-- Check Button -->
-				    <Button
+				   <!-- <Button
 				        android:id="@+id/mainCheckBtn"
 				        style="@style/TextButton"
 				        android:layout_width="wrap_content"
 				        android:layout_height="wrap_content"
 				        android:drawableTop="@drawable/ic_done_all_black_24dp"
-				        android:text="@string/checkBtn" />
+				        android:text="@string/checkBtn" />-->
 
 		    </TableLayout>		
 		</TableLayout>	

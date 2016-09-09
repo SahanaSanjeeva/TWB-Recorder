@@ -46,17 +46,19 @@ public class ElicitationMode extends AikumaActivity{
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.elicitation_mode);
+
+		onImportClick();
 	}
 	
-	public void onImportClick(View _view) {
-		switch (_view.getId()) {
-		case R.id.button_byText:
-			Log.i(TAG, "Import text; view id: " + _view.getId());
+	public void onImportClick() {
+		//switch (_view.getId()) {
+		//case R.id.button_byText:
+			Log.i(TAG, "Import text; view id: " + R.id.button_byText); //_view.getId());
 			mPath = Environment.getExternalStorageDirectory();
 			fileType = ".txt";
 			title = "Import text file";
 			importContent();
-			break;
+		/*	break;
 		case R.id.button_byImage:
 			Log.i(TAG, "Import image; view id: " + _view.getId());
 			mPath = Environment.getExternalStorageDirectory();
@@ -73,7 +75,7 @@ public class ElicitationMode extends AikumaActivity{
 			Toast.makeText(this, "This feature is not yet available...", Toast.LENGTH_LONG).show();
 //			importContent();
 			break;
-		}
+		}*/
 		
 	}
 	

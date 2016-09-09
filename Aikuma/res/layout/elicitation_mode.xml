@@ -43,39 +43,39 @@
 		       android:background="@android:color/darker_gray"
 		       android:layout_marginBottom="30dp"/>  
 	
-		    <TextView
+		    <!--<TextView
 		        android:id="@+id/textViewElicit2"
 		        style="@style/SecondTitle"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:text="@string/selectanElicitMode" />
+		        android:text="@string/selectanElicitMode" />-->
 	
 	    
 	    
 	    <TableLayout
 	        android:layout_gravity="center_vertical|center_horizontal"   
-	        android:layout_marginTop="40dp" >
-	        
+	        android:layout_marginTop="40dp"
+			android:id="@+id/button_byText">
 		        <!-- By Text Button -->
-		    	<Button
+		    	<!--<Button
 		    	    android:id="@+id/button_byText"
 		    	    style="@style/TextButton"
 		    	    android:layout_width="wrap_content"
 		    	    android:layout_height="wrap_content"
 		    	    android:drawableTop="@drawable/ic_dvr_black_24dp"
 		    	    android:onClick="onImportClick"
-		    	    android:text="@string/elicitText" />
+		    	    android:text="@string/elicitText" />-->
 			    <!-- By Image Button -->
-			    <Button
+			   <!-- <Button
 			        android:id="@+id/button_byImage"
 			        style="@style/TextButton"
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
 			        android:drawableTop="@drawable/ic_image_black_24dp"
 			        android:onClick="onImportClick"
-			        android:text="@string/elicitImage" />
+			        android:text="@string/elicitImage" />-->
 			    <!-- By Video Button -->
-			    <Button
+			   <!-- <Button
 			        android:id="@+id/button_byVideo"
 			        style="@style/TextButton"
 			        android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
 			        android:layout_weight="1.09"
 			        android:drawableTop="@drawable/ic_videocam_black_24dp"
 			        android:onClick="onImportClick"
-			        android:text="@string/elicitVideo" />
+			        android:text="@string/elicitVideo" />-->
 		</TableLayout>
 	
 	</TableLayout>
